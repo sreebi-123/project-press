@@ -14,7 +14,7 @@ import ShopLogin from "./pages/ShopLogin";
 import AdminDashboard from "./pages/AdminDashboard";
 import OnlineCustomerRegisterPage from "./pages/OnlineCustomerRegisterPage";
 import ShopApprovalList from "./pages/ShopApprovalList";
-import ThankYou from "./pages/Thankyou";
+// import ThankYou from "./pages/Thankyou";
 import { roleGuard } from "../utils/roleGuard";
 import roleRedirectLoader from "../utils/roleRedirectLoader";
 import WalkInOrderForm from "./pages/WalkInOrderForm";
@@ -49,7 +49,7 @@ import ProductsPage from "./pages/ProductsPage.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 import PrintingDashboard from "./pages/PrintingDashboard.jsx";
 import ProductionDashboard from "./pages/ProductionDashboard.jsx";
-
+import ThankYou from "./pages/ThankYou";
 const router = createBrowserRouter([
   {
     path: "/",
