@@ -1,0 +1,4 @@
+node_modules
+clearUsersSeeder.js
+backend/.env.printpress
+.env
