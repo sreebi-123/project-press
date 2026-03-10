@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
+
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -28,7 +30,24 @@ const ContactPage = () => {
   };
 
   return (
+    
     <div className="min-h-screen bg-gray-50 py-10 px-6 flex flex-col items-center">
+      <Helmet>
+  <title>Contact Printing Services | Printing Press Kerala</title>
+  <meta
+    name="description"
+    content="Contact our printing press in Thiruvananthapuram for banners, brochures, business cards, and digital printing services."
+  />
+  <meta
+    name="keywords"
+    content="printing press kerala, printing services trivandrum, banner printing, brochure printing"
+  />
+  <meta property="og:title" content="Contact Printing Press Kerala" />
+  <meta
+    property="og:description"
+    content="Reach out to our printing experts for high-quality printing services."
+  />
+</Helmet>
       <motion.div
         className="max-w-5xl w-full bg-white shadow-lg rounded-2xl p-8"
         initial={{ opacity: 0, y: 40 }}
@@ -119,5 +138,6 @@ const ContactPage = () => {
     </div>
   );
 };
+
 
 export default ContactPage;
